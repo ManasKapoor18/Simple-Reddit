@@ -1,0 +1,27 @@
+{
+  "name": "simple-reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "start2": "ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^5.8.10",
+    "@mikro-orm/core": "^5.8.10",
+    "@mikro-orm/migrations": "^5.8.10",
+    "@mikro-orm/postgresql": "^5.8.10",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.1"
+  }
+}
